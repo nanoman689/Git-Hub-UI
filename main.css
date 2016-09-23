@@ -1,0 +1,115 @@
+* {
+    font-family: arial;
+}
+
+body, html {
+    margin: 0;
+    top:0;
+    left: 0;
+    bottom:0;
+    right: 0;
+}
+
+a:link {
+    text-decoration: none; 
+}
+.main {
+    position: relative;
+    margin: 0 auto;
+    border: 1px solid #dadada;
+    width: 750px;
+    height: 400px;
+    background: #ececec;
+}
+
+.icon {
+    background: url("./img/1885_sm.jpg");
+    position: relative;
+    width: 45px;
+    height: 45px;
+    top: 11px;
+    left: 5px;
+    border-radius: 5px;
+}
+
+.submitBoxMain {
+	position: relative;
+    width:670px;
+    height:350px;
+    left: 70px;
+    bottom: 33px;
+    border-radius: 5px;
+	background: #ffffff;
+    border: 1px solid #dadada;
+}
+
+input[type="text"] {
+    position: relative;
+    border: 1px solid #dadada;
+    border-radius: 2px;
+    outline: none;
+    height: 18px;
+    width: 96%;
+    top: 10px;
+    left: 10px;
+}
+
+input[type=text]:focus {
+    outline: none;
+    border: 2px solid #d3d3d3;
+}
+
+.submitTabs {
+    list-style-type: none;
+    list-style-position: inside;
+}
+
+ul.submitTabsUL {
+    list-style: none;
+    display: table;
+    list-style-type: none;
+    list-style-position: inside;
+}
+
+li {
+    display: table-cell;
+    list-style-type: none;
+    list-style-position: inside;
+    padding-left: 10px;
+}
+
+.submitForm {
+    position: relative;
+}
+
+textarea {
+    position: relative;
+    border: 1px solid #dadada;
+    width: 96%;
+    height: 200px;
+    top: -9px;
+    left: 10px;
+    border-radius: 2px;
+    outline: none;
+    vertical-align: text-top;
+}
+
+textarea:focus {
+    outline: none;
+    border: 2px solid #d3d3d3;
+}
+    
+.arrowMain {
+    position: absolute;
+    left:62px;
+    top:23px;
+}
+
+.arrow {
+    position: absolute;
+    width: 0;
+	height: 0;
+	border-top: 8px solid transparent;
+	border-right: 8px solid #ffffff;
+	border-bottom: 8px solid transparent;
+}
