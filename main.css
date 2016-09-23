@@ -13,6 +13,27 @@ body, html {
 a:link {
     text-decoration: none; 
 }
+
+h2 {
+    margin: 0;
+    font-size: 14px;
+}
+
+h3 {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 100;
+    padding-top: 8px;
+    color:#777777;
+}
+
+h4 {
+    margin: 0;
+    font-size: 11px;
+    font-weight: 400;
+    
+}
+
 .main {
     position: relative;
     margin: 0 auto;
@@ -67,15 +88,37 @@ input[type=text]:focus {
 ul.submitTabsUL {
     list-style: none;
     display: table;
+    padding: 0;
+    overflow: hidden;
     list-style-type: none;
     list-style-position: inside;
 }
 
 li {
     display: table-cell;
+    float: left;
     list-style-type: none;
     list-style-position: inside;
     padding-left: 10px;
+}
+
+li.list1 {
+    color: black;
+    background-color: gray;
+}
+
+i.list2 {
+    margin-left: 5px;
+    padding-left: 3px;
+}
+
+i.list3 {
+    margin-left: 5px;
+    padding-left: 3px;
+}
+
+li.listBlank {
+    margin-left: 30px;
 }
 
 .submitForm {
@@ -85,6 +128,7 @@ li {
 textarea {
     position: relative;
     border: 1px solid #dadada;
+    background-color:#f3f3f3;
     width: 96%;
     height: 200px;
     top: -9px;
@@ -92,13 +136,46 @@ textarea {
     border-radius: 2px;
     outline: none;
     vertical-align: text-top;
+    overflow: auto;
 }
 
 textarea:focus {
     outline: none;
     border: 2px solid #d3d3d3;
 }
-    
+
+.sumbutInstructions {
+    position:relative;
+    width: 95%;
+    height: 30px;
+    padding-left: 10px;
+    top:-10px;
+    border: 1px solid #dadada;
+    background-color:#f3f3f3;
+    left: 10px;
+}
+
+span.instructionsHighlight {
+    color: blue;
+}
+
+.submitFooter {
+    left:10px;
+    display: inline-flex;
+    position: relative;
+    width: 95%;
+}
+
+.footerText {
+    display: inline-flex;
+}
+
+span.footerStyle {
+    position: relative;
+    top: 2px;
+    padding-left: 10px;
+}
+
 .arrowMain {
     position: absolute;
     left:62px;
@@ -112,4 +189,34 @@ textarea:focus {
 	border-top: 8px solid transparent;
 	border-right: 8px solid #ffffff;
 	border-bottom: 8px solid transparent;
+}
+
+.button {
+  background: #4fd934;
+  background-image: -webkit-linear-gradient(top, #4fd934, #3cb524);
+  background-image: -moz-linear-gradient(top, #4fd934, #3cb524);
+  background-image: -ms-linear-gradient(top, #4fd934, #3cb524);
+  background-image: -o-linear-gradient(top, #4fd934, #3cb524);
+  background-image: linear-gradient(to bottom, #4fd934, #3cb524);
+  -webkit-border-radius: 4;
+  -moz-border-radius: 4;
+  border-radius: 4px;
+  position: relative;
+  left: 304px;
+  top: -6px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.button:hover {
+  background: #4fd934;
+  background-image: -webkit-linear-gradient(top, #4fd934, #4fd934);
+  background-image: -moz-linear-gradient(top, #4fd934, #4fd934);
+  background-image: -ms-linear-gradient(top, #4fd934, #4fd934);
+  background-image: -o-linear-gradient(top, #4fd934, #4fd934);
+  background-image: linear-gradient(to bottom, #4fd934, #4fd934);
+  text-decoration: none;
 }
